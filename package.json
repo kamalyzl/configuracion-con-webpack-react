@@ -1,0 +1,30 @@
+{
+  "name": "proyecto-blog",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba",
+  "main": "/public/app.js",
+  "scripts": {
+    "public": "webpack --colors --progress",
+    "serve": "webpack-dev-server --colors --progress",
+    "start": "npm run public && npm run serve",
+    "production": "webpack -p"
+  },
+  "author": "Jonathan MirCha <jonmircha@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.2",
+    "json-loader": "^0.5.4",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
