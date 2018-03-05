@@ -1,6 +1,6 @@
 const webpack = require('webpack'),
   path = require('path'),
-  endPath = path.resolve(__dirname, 'public')
+  endPath = path.resolve(__dirname, 'public') // public es el nombre de tu carpeta produccion, también existe build
 
 module.exports = {
   resolve: {
