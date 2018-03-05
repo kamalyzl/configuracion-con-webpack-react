@@ -9,7 +9,7 @@
     "start": "npm run public && npm run serve",
     "production": "webpack -p"
   },
-  "author": "Jonathan MirCha <jonmircha@gmail.com>",
+  "author": "kamaly Zapana",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.23.1",
